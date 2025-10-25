@@ -1,0 +1,66 @@
+openapi: 3.0.3
+info: { title: arbiStock CS2 API, version: 1.0.0 }
+servers: [ { url: http://localhost:5000 } ]
+paths:
+  /api/v1/cs2/items:
+    get:
+      operationId: listItems
+      parameters:
+        - in: query; name: q; schema: { type: string }
+      responses:
+        "200":
+          description: items
+          content: { application/json: { schema: { $ref: "#/components/schemas/ItemList" } } }
+  /api/v1/cs2/items/{id}:
+    get:
+      operationId: getItem
+      parameters: [ { in: path, name: id, required: true, schema: { type: string } } ]
+      responses:
+        "200": { description: item, content: { application/json: { schema: { $ref: "#/components/schemas/Item" } } } }
+        "404": { description: not found }
+  /api/v1/cs2/prices/{id}/latest:
+    get:
+      operationId: getLatestPrice
+      parameters: [ { in: path, name: id, required: true, schema: { type: string } } ]
+      responses:
+        "200": { description: latest price, content: { application/json: { schema: { $ref: "#/components/schemas/PricePoint" } } } }
+  /api/v1/cs2/prices/{id}/history:
+    get:
+      operationId: getPriceHistory
+      parameters:
+        - { in: path, name: id, required: true, schema: { type: string } }
+        - { in: query, name: days, schema: { type: integer, default: 7 } }
+      responses:
+        "200": { description: timeseries, content: { application/json: { schema: { $ref: "#/components/schemas/PriceSeries" } } } }
+
+components:
+  schemas:
+    Item:
+      type: object
+      required: [id, skinName, weapon, rarity, iconUrl]
+      properties:
+        id: { type: string }
+        skinName: { type: string }
+        weapon: { type: string }
+        rarity: { type: string }
+        iconUrl: { type: string }
+    ItemList:
+      type: object
+      properties:
+        items:
+          type: array
+          items: { $ref: "#/components/schemas/Item" }
+    PricePoint:
+      type: object
+      required: [tsUtc, platform, price]
+      properties:
+        tsUtc: { type: string, format: date-time }
+        platform: { type: string }   # steam | buff | skinport | mock | csmoney ...
+        price: { type: number, format: double }
+    PriceSeries:
+      type: object
+      properties:
+        itemId: { type: string }
+        points:
+          type: array
+          items: { $ref: "#/components/schemas/PricePoint" }

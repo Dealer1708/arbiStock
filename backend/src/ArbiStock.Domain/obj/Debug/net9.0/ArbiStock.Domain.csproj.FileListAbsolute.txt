@@ -1,0 +1,12 @@
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\bin\Debug\net9.0\ArbiStock.Domain.deps.json
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\bin\Debug\net9.0\ArbiStock.Domain.dll
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\bin\Debug\net9.0\ArbiStock.Domain.pdb
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\obj\Debug\net9.0\ArbiStock.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\obj\Debug\net9.0\ArbiStock.Domain.AssemblyInfoInputs.cache
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\obj\Debug\net9.0\ArbiStock.Domain.AssemblyInfo.cs
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\obj\Debug\net9.0\ArbiStock.Domain.csproj.CoreCompileInputs.cache
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\obj\Debug\net9.0\ArbiStock.Domain.sourcelink.json
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\obj\Debug\net9.0\ArbiStock.Domain.dll
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\obj\Debug\net9.0\refint\ArbiStock.Domain.dll
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\obj\Debug\net9.0\ArbiStock.Domain.pdb
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Domain\obj\Debug\net9.0\ref\ArbiStock.Domain.dll

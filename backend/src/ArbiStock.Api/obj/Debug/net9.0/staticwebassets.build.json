@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Jzjf+SLzgD48dl3Z68zRFPjvSbuWXgM7qklV5MKY1/4=",
+  "Source": "ArbiStock.Api",
+  "BasePath": "_content/ArbiStock.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

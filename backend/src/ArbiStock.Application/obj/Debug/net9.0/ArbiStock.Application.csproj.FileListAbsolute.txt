@@ -1,0 +1,16 @@
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\bin\Debug\net9.0\ArbiStock.Application.deps.json
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\bin\Debug\net9.0\ArbiStock.Application.dll
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\bin\Debug\net9.0\ArbiStock.Application.pdb
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\bin\Debug\net9.0\ArbiStock.Domain.dll
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\bin\Debug\net9.0\ArbiStock.Domain.pdb
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ArbiStock.Application.csproj.AssemblyReference.cache
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ArbiStock.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ArbiStock.Application.AssemblyInfoInputs.cache
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ArbiStock.Application.AssemblyInfo.cs
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ArbiStock.Application.csproj.CoreCompileInputs.cache
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ArbiStock.Application.sourcelink.json
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ArbiStoc.55D5658D.Up2Date
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ArbiStock.Application.dll
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\refint\ArbiStock.Application.dll
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ArbiStock.Application.pdb
+C:\Documents\GitHub\arbiStock\backend\src\ArbiStock.Application\obj\Debug\net9.0\ref\ArbiStock.Application.dll
